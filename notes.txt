@@ -1,0 +1,4 @@
+1. javac StrongAES.java
+2. java StrongAES
+3. ***** Now the output is not base64. do the entire file base64 ==> cat *.enc | base64 >> 1.png.enc
+4. just invoke c.html and upload.
