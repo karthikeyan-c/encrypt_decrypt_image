@@ -93,7 +93,7 @@ public class StrongAES
             Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, aesKey, ivspec);
             //String inputFile = "1.txt";
-            String inputFile = "kiru_bday.zip";
+            String inputFile = "image.png";
             try (FileOutputStream out = new FileOutputStream(inputFile + ".enc")) {
                 try (FileInputStream in = new FileInputStream(inputFile)) {
                     processFile(cipher, in, out);
